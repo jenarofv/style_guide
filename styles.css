@@ -1,8 +1,8 @@
 body {
-  font-family: sans-serif;
+  font-family: Urbanist, sans-serif;
 }
 
-header h1 {
+h1 {
   text-align: center;
   font-size: 3.5rem;
   font-weight: normal;
@@ -119,4 +119,10 @@ section {
 
 .italic {
   font-style: italic;
+}
+
+code {
+  font-family: "Ubuntu Mono";
+  font-size: 1rem;
+  background-color: lightgray;
 }
