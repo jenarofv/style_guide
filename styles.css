@@ -92,7 +92,12 @@ section {
   color: white;
 }
 
-.ubuntu-mono {
+.font {
+  display: inline-block;
+  width: 45%;
+}
+
+.Ubuntu-Mono {
   font-family: "Ubuntu Mono", monospace;
 }
 
@@ -102,4 +107,16 @@ section {
 
 .Urbanist {
   font-family: "Urbanist", sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
