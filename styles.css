@@ -34,19 +34,36 @@ section {
   text-align: center;
   padding-left: 0;
   display: flex;
-  /*margin-left: auto;
-  margin-right: auto;
-  width: 80%;*/
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .palette li {
   box-sizing: border-box;
   display: inline-block;
-  width: 300px;
+  flex: 1 1 300px;
   height: 150px;
   padding: 48px 70px;
   border: 2px black solid;
   margin: 10px 20px;
+  max-width: 470px;
+}
+
+@media only screen and (1126px <= width <= 1466px){
+
+  .palette li {
+    flex: 1 0 300px;
+    min-width: 469px;
+    max-width: none;
+  }
+}
+
+@media only screen and (width < 1126px){
+
+  .palette li {
+    flex: 1 1 300px;
+    max-width: none;
+  }
 }
 
 #colors h3+p {
